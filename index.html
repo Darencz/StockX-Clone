@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
+
   <body>
     <nav class="navbar">
-      <div class="container">
+      <div class="nav-container">
         <div class="logo">
           <a href="#">
             <img src="img/PngItem_5295521.png" alt="" />
@@ -69,14 +70,19 @@
           </ul>
         </nav>
 
-        <section class="main-img">
-          <a href="#"><img src="img/Kaws-main.webp" alt="" /></a>
-        </section>
+        <div id="content-container">
+          <section class="main-img">
+            <a href="#"><img src="img/Kaws-main.webp" alt="" /></a>
+          </section>
 
-        <section class="product-row">
-          <h2 class="product-row-title">Most Popular Sneakers</h2>
-          <div class="product-boxes-grid"></div>
-        </section>
+          <section class="product-row">
+            <h2 class="product-row-title">
+              Most Popular Sneakers
+              <button class="see-all-btn">See All</button>
+            </h2>
+            <div class="product-boxes-grid"></div>
+          </section>
+        </div>
       </div>
     </main>
   </body>
