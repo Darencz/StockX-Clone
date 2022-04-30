@@ -13,9 +13,19 @@
       <div class="nav-container">
         <div class="logo">
           <a href="#">
-            <img src="img/PngItem_5295521.png" alt="" />
+            <img
+              src="img/Logo's/site logo/StockX_Black_Digital_RGB.png"
+              alt=""
+            />
           </a>
         </div>
+
+        <div class="navbar-search">
+          <form>
+            <input type="text" placeholder="Search for brand, color, etc." />
+          </form>
+        </div>
+
         <ul class="nav">
           <li>
             <a href="#">Browse</a>
@@ -33,10 +43,10 @@
             <a href="#">Login</a>
           </li>
           <li>
-            <button href="#">Sign Up</button>
+            <button id="nav-signup">Sign Up</button>
           </li>
           <li>
-            <button href="#">Sell</button>
+            <button id="nav-sell">Sell</button>
           </li>
         </ul>
       </div>
@@ -44,7 +54,7 @@
 
     <main class="main">
       <div class="main-wrapper">
-        <nav class="product-select">
+        <section class="product-select">
           <ul class="product-list">
             <li>
               <a href="#">Sneakers</a>
@@ -68,19 +78,73 @@
               <a href="#">NFTs</a>
             </li>
           </ul>
-        </nav>
+        </section>
 
         <div id="content-container">
           <section class="main-img">
             <a href="#"><img src="img/Kaws-main.webp" alt="" /></a>
           </section>
 
+          <!--First Product Row -->
           <section class="product-row">
-            <h2 class="product-row-title">
+            <h2 class="product-row-heading">
               Most Popular Sneakers
-              <button class="see-all-btn">See All</button>
+              <button class="see-all-btn">
+                See All
+                <img src="/img/right-arrow.svg" alt="" />
+              </button>
             </h2>
-            <div class="product-boxes-grid"></div>
+
+            <!--Sneaker Boxes-->
+            <article class="product-grid-container">
+              <aside class="box prod-box1">
+                <img src="/img/itm-imgs/Nike-Dunk-Low-Retro.avif" alt="" />
+                <h3 class="box-title">Nike-Dunk-Low-Retro</h3>
+                <p>Lowest Ask</p>
+                <p>$205</p>
+                <div class="amount-sold">2917 sold</div>
+              </aside>
+
+              <aside class="box prod-box2">
+                <img src="/img/itm-imgs/Nike-Dunk-Low-Retro.avif" alt="" />
+                <h3 class="box-title">Nike-Dunk-Low-Retro</h3>
+                <p>Lowest Ask</p>
+                <p>$205</p>
+                <div class="amount-sold">2917 sold</div>
+              </aside>
+
+              <aside class="box prod-box3">
+                <img src="/img/itm-imgs/Nike-Dunk-Low-Retro.avif" alt="" />
+                <h3 class="box-title">Nike-Dunk-Low-Retro</h3>
+                <p>Lowest Ask</p>
+                <p>$205</p>
+                <div class="amount-sold">2917 sold</div>
+              </aside>
+
+              <aside class="box prod-box4">
+                <img src="/img/itm-imgs/Nike-Dunk-Low-Retro.avif" alt="" />
+                <h3 class="box-title">Nike-Dunk-Low-Retro</h3>
+                <p>Lowest Ask</p>
+                <p>$205</p>
+                <div class="amount-sold">2917 sold</div>
+              </aside>
+
+              <aside class="box prod-box5">
+                <img src="/img/itm-imgs/Nike-Dunk-Low-Retro.avif" alt="" />
+                <h3 class="box-title">Nike-Dunk-Low-Retro</h3>
+                <p>Lowest Ask</p>
+                <p>$205</p>
+                <div class="amount-sold">2917 sold</div>
+              </aside>
+
+              <aside class="box prod-box6">
+                <img src="/img/itm-imgs/Nike-Dunk-Low-Retro.avif" alt="" />
+                <h3 class="box-title">Nike-Dunk-Low-Retro</h3>
+                <p>Lowest Ask</p>
+                <p>$205</p>
+                <div class="amount-sold">2917 sold</div>
+              </aside>
+            </article>
           </section>
         </div>
       </div>
