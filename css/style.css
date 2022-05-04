@@ -7,8 +7,8 @@
 
 body {
     height: 100%;
-    line-height: 1.3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
 img {
@@ -26,6 +26,10 @@ h2 {
 
 h3 {
     font-size: 13px;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* NavBar Styles */
@@ -178,26 +182,24 @@ h3 {
     margin-top: 25px;
 }
 
-.box img {
-    max-width: 8rem;
-    display: block;
-    margin: 0 auto;
-}
 
+/* Product Tile Styles */
 .product-row-heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
-
 }
 
-
-.product-grid-container {
+.product-grid-container  {
    display: grid;
    grid-template-columns: repeat(6, 1fr);
-   gap: 1.5rem; 
+   gap: 1.5rem;
+}
+
+.product-grid-container a {
+    color: black;
 }
 
 .box {
@@ -205,10 +207,54 @@ h3 {
     height: 15rem;
 }
 
+.box img {
+    max-width: 8rem;
+    display: flex;
+    margin:16px auto;
+}
+
+.box-title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.tile-info {
+    margin-left: 10px;
+    line-height: 1.2rem;
+}
+
+.tile-ask  {
+  color: gray;
+  font-size: small;
+  margin-top: 0.5rem;
+}
+
+.tile-price {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.amount-sold {
+    background-color: rgba(185, 185, 185, 0.418);
+    font-size: 13px;
+    font-weight: 600;
+    width: 4rem;
+    max-height: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+/* Product Tile Styles */
 
 
 @media (max-width: 767px) {
     .product-select, .navbar {
         display: none;
+    }
+}
+
+@media (max-width: 1194px) {
+    .product-grid-container {
+        overflow: scroll;
     }
 }
