@@ -34,7 +34,6 @@ a {
 
 /* NavBar Styles */
 .navbar {
-    padding-right: 10px;
     height: auto;
     position: sticky;
     top: 0px;
@@ -278,7 +277,7 @@ a {
 
 
 .amount-sold {
-    display: flex;
+    display: inline-flex;
     background-color: rgba(185, 185, 185, 0.418);
     font-size: 13px;
     font-weight: 600;
@@ -312,6 +311,42 @@ a {
   max-width: 100%;
 }
 
+.bottom-imgs {
+    margin-top: 6px;
+}
+
+.bottom-imgs-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+/* Footer */
+#footer {
+    margin-top: 1rem;
+    background-color: rgb(41, 41, 41);
+    max-width: 100%;
+}
+
+#footer h2 {
+    color: rgb(216, 216, 216);
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.footer-container {
+    margin: 0 2px;
+    padding: 10px;
+}
+
+.footer-divider {
+    opacity: 0.6;
+    border-width: 0px 0px 1.5px;
+    border-style: solid;
+    padding: 6px 0px 6px 0px;
+    margin-bottom: 20px;
+}
 
 /* Hamburger Menu Icon */
 .hamburger {
